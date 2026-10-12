@@ -1,0 +1,83 @@
+.lich {
+    margin:20px auto;
+    width:750px;
+    padding:30px;
+    border: 3px solid black;
+    border-radius:20px;
+    background-color:rgb(255, 255, 255);
+    position:relative;
+}
+body {
+    font-family:monospace;
+    background-image: url("nendo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-weight: bold;
+}
+.thang p {
+    text-align:center;
+    border: 2px solid black;
+    padding:10px;
+    border-radius: 20px;
+    background-color:rgb(157, 201, 235);
+    font-size:25px;
+}
+.ngay {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+.thu1 {
+    border:1px solid black;
+    padding:5px -10px;
+    border-radius:5px;
+    text-align:center;
+    background-color:rgb(235, 183, 242);
+}
+.ngaytruoc {
+    border:1px solid black;
+    padding: 5px- 10px;
+    border-radius:5px;
+    text-align:center;
+    background-color:rgb(206, 207, 207);
+    color:rgb(90, 89, 89);
+    padding-bottom:15px;
+}
+.ngay1 {
+    border:1px solid black;
+    padding: 5px- 10px;
+    border-radius:5px;
+    text-align:center;
+    background-color:aliceblue;
+    padding-bottom:15px;
+}
+.ngaysau {
+    border:1px solid black;
+    padding:5px- 10px;
+    border-radius:5px;
+    text-align:center;
+    background-color:rgb(206, 207, 207);
+    color:rgb(90, 89, 89);
+    padding-bottom:15px;
+}
+h1 {
+    text-align:center;
+    font-size: 40px;
+}
+.chuyenthang {
+    display: flex;
+    justify-content: space-between;
+    margin:10px;
+    padding:5px- 5px;
+    border-radius:5px;
+}
+.hinhgoc {
+    position:absolute;
+    top: 10px;
+    right: 10px;
+    width: 300px;
+    height: auto;
+    z-index: 10;
+}
